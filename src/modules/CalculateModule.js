@@ -4,13 +4,13 @@
 
         let addDayCount = 0;
 
-        if (form.fabricType == "cotton" && form.quantity < 50) {
+        if (form.fabricType === "cotton" && form.quantity < 50) {
             addDayCount = 2
-        } else if (form.fabricType == "cotton" && form.quantity >= 50) {
+        } else if (form.fabricType === "cotton" && form.quantity >= 50) {
             addDayCount = 3
-        } else if (form.fabricType == "linen" && form.quantity < 50) {
+        } else if (form.fabricType === "linen" && form.quantity < 50) {
             addDayCount = 4
-        } else if (form.fabricType == "linen" && form.quantity >= 50) {
+        } else if (form.fabricType === "linen" && form.quantity >= 50) {
             addDayCount = 5
         }
 

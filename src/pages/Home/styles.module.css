@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&display=swap');
+
+.title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 43pt;
+    color: #2B2E39; 
+    text-overflow: ellipsis;
+}
+
+.calculateTitle{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 85pt;
+    color: #2B2E39; 
+    text-overflow: ellipsis;
+}
+
+.gradient {
+    position: absolute;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(60deg, #AC6EFF, #2414DB);
+}
+
+.content{
+    border-radius: 0 15% 15% 0;
+    border: none;
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    z-index: 5;
+    overflow: auto;
+}
+
+.container {
+    margin-left: 5%;
+}
+
+
+@media only screen and (max-height:1200px) and (max-width:1500px) {
+    .title{
+        margin: 0;
+    }
+    .calculateTitle{
+        margin: 0;
+    }
+
+}
